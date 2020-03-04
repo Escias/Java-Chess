@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <echo>Using env.test.properties</echo>
+  <copy todir="/Users/escias/Desktop/Cours/javaChessGame/Romuald78-chesspublic-860e4f85613e/target/../lib">
+    <fileset includes="**" dir="/Users/escias/Desktop/Cours/javaChessGame/Romuald78-chesspublic-860e4f85613e/target/natives"/>
+  </copy>
+  <copy todir="/Users/escias/Desktop/Cours/javaChessGame/Romuald78-chesspublic-860e4f85613e/target/..">
+    <fileset includes="**" dir="/Users/escias/Desktop/Cours/javaChessGame/Romuald78-chesspublic-860e4f85613e/target/../src/main/resources"/>
+  </copy>
+</target>
+</project>
